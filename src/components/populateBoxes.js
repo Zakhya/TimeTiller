@@ -11,6 +11,7 @@ function fillArray() {
             beingGrown: 'none',
             isGrowing: 'false',
             longTermItem: 'none',
+            timerIsRunning: false
         })
         j > 19 ? j = 1 : j++
     }
